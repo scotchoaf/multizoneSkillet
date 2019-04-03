@@ -18,4 +18,23 @@
       </layer3>
       <comment>Untrust interface using DHCP client access</comment>
     </entry>
+      <entry name="{{ INTF_TRUST }}">
+      <layer3>
+        <ipv6>
+          <neighbor-discovery>
+            <router-advertisement>
+              <enable>no</enable>
+            </router-advertisement>
+          </neighbor-discovery>
+        </ipv6>
+        <ndp-proxy>
+          <enabled>no</enabled>
+        </ndp-proxy>
+        <lldp>
+          <enable>no</enable>
+        </lldp>
+        <dhcp-client/>
+      </layer3>
+      <comment>customer-side ethernet port</comment>
+    </entry>
 </ethernet>

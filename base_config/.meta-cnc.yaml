@@ -36,6 +36,10 @@ variables:
     description: Untrust zone
     default: untrust
     type_hint: text
+  - name: INTF_TRUST
+    description: trust Interface
+    default: ethernet1/2
+    type_hint: text
   - name: SYSLOG_SERVER
     description: Syslog Server IP
     default: 192.0.6.1

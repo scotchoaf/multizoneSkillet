@@ -1,19 +1,6 @@
       <ethernet>
         <entry name="{{ INTF_TRUST }}">
           <layer3>
-            <ipv6>
-              <neighbor-discovery>
-                <router-advertisement>
-                  <enable>no</enable>
-                </router-advertisement>
-              </neighbor-discovery>
-            </ipv6>
-            <ndp-proxy>
-              <enabled>no</enabled>
-            </ndp-proxy>
-            <lldp>
-              <enable>no</enable>
-            </lldp>
             <units>
               <entry name="{{ INTF_TRUST }}.{{ vlan_tag }}">
                 <ipv6>

@@ -109,9 +109,9 @@ snippets:
   - name: network_profiles-network-profiles
     xpath: /config/devices/entry[@name='localhost.localdomain']/network/profiles
     file: network_profiles.xml
-  - name: interface
-    xpath: /config/devices/entry[@name='localhost.localdomain']/network/interface
-    file: interface.xml
+  - name: subinterface
+    xpath: /config/devices/entry[@name='localhost.localdomain']/network/interface/ethernet/entry[@name='ethernet1/2']/layer3/units
+    file: subinterface.xml
   - name: virtual_router
     xpath: /config/devices/entry[@name='localhost.localdomain']/network/virtual-router
     file: virtual_router.xml
