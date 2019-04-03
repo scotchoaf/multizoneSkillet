@@ -14,7 +14,6 @@
         <lldp>
           <enable>no</enable>
         </lldp>
-        <interface-management-profile>MSSP management untrust</interface-management-profile>
         <dhcp-client/>
       </layer3>
       <comment>Untrust interface using DHCP client access</comment>
