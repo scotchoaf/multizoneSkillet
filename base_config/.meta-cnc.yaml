@@ -32,6 +32,10 @@ variables:
     description: Untrust Interface
     default: ethernet1/1
     type_hint: text
+  - name: ip_untrust
+    description: Untrust Interface IP address
+    default: 192.0.2.1/24
+    type_hint: text
   - name: ZONE_UNTRUST
     description: Untrust zone
     default: untrust
