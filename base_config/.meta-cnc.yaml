@@ -60,6 +60,9 @@ snippets:
   - name: virtual_router
     xpath: /config/devices/entry[@name='localhost.localdomain']/network/virtual-router
     file: virtual_router.xml
+  - name: zone_protection_profile
+    xpath: /config/devices/entry[@name='localhost.localdomain']/network/profiles/zone-protection-profile
+    file: zone_protection_profile.xml
   - name: zone
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/zone
     file: zone.xml
