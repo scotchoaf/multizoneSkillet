@@ -1,0 +1,5 @@
+<entry name="default">
+  <interface>
+    <member>{{ INTF_TRUST }}</member>
+  </interface>
+</entry>

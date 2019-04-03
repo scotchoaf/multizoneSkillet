@@ -1,0 +1,9 @@
+<entry name="{{ ZONE_UNTRUST }}">
+    <network>
+        <layer3>
+        <member>{{ INTF_UNTRUST }}</member>
+      </layer3>
+      <zone-protection-profile>Recommended_Zone_Protection</zone-protection-profile>
+    </network>
+  </entry>
+

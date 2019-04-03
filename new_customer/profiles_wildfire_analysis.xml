@@ -1,0 +1,14 @@
+<entry name="{{ customer_ID }}-WF">
+  <rules>
+    <entry name="Forward-All">
+      <application>
+        <member>any</member>
+      </application>
+      <file-type>
+        <member>any</member>
+      </file-type>
+      <direction>both</direction>
+      <analysis>public-cloud</analysis>
+    </entry>
+  </rules>
+</entry>

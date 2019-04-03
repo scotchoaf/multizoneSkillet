@@ -1,0 +1,42 @@
+      <ethernet>
+        <entry name="{{ INTF_TRUST }}">
+          <layer3>
+            <ipv6>
+              <neighbor-discovery>
+                <router-advertisement>
+                  <enable>no</enable>
+                </router-advertisement>
+              </neighbor-discovery>
+            </ipv6>
+            <ndp-proxy>
+              <enabled>no</enabled>
+            </ndp-proxy>
+            <lldp>
+              <enable>no</enable>
+            </lldp>
+            <units>
+              <entry name="{{ INTF_TRUST }}.{{ vlan_tag }}">
+                <ipv6>
+                  <neighbor-discovery>
+                    <router-advertisement>
+                      <enable>no</enable>
+                    </router-advertisement>
+                  </neighbor-discovery>
+                </ipv6>
+                <ndp-proxy>
+                  <enabled>no</enabled>
+                </ndp-proxy>
+                <adjust-tcp-mss>
+                  <enable>no</enable>
+                </adjust-tcp-mss>
+                <ip>
+                  <entry name="{{ vlan_ip }}"/>
+                </ip>
+                <tag>{{ vlan_tag }}</tag>
+                <comment>{{ customer_ID }}</comment>
+              </entry>
+            </units>
+          </layer3>
+        </entry>
+      </ethernet>
+
