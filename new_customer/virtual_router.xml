@@ -1,5 +1,5 @@
 <entry name="default">
   <interface>
-    <member>{{{ INTF_TRUST }}.{{ vlan_tag }}</member>
+    <member>{{ INTF_TRUST }}.{{ vlan_tag }}</member>
   </interface>
 </entry>
