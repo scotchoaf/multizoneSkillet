@@ -1,20 +1,20 @@
 <entry name="{{ customer_ID }}-Outbound">
   <virus>
-    <member>Outbound-AV</member>
+    <member>{{ customer_ID }}-AV</member>
   </virus>
   <spyware>
-    <member>Outbound-AS</member>
+    <member>{{ customer_ID }}-AS</member>
   </spyware>
   <vulnerability>
-    <member>Outbound-VP</member>
+    <member>{{ customer_ID }}-VP</member>
   </vulnerability>
   <url-filtering>
-    <member>Outbound-URL</member>
+    <member>{{ customer_ID }}-URL</member>
   </url-filtering>
   <file-blocking>
-    <member>Outbound-FB</member>
+    <member>{{ customer_ID }}-FB</member>
   </file-blocking>
   <wildfire-analysis>
-    <member>Outbound-WF</member>
+    <member>{{ customer_ID }}-WF</member>
   </wildfire-analysis>
 </entry>
