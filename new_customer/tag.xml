@@ -1,3 +1,3 @@
 	<entry name="{{ customer_ID }}">
-		<color>color4</color>
+		<color>{{ tag_color }}</color>
 	</entry>

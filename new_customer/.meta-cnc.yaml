@@ -44,6 +44,19 @@ variables:
     description: vlan IP address
     default: 192.0.7.1/30
     type_hint: text
+  - name: tag_color
+    description: Tag color
+    default: red
+    type_hint: dropdown
+    dd_list:
+      - key: blue
+        value: color3
+      - key: green
+        value: color2
+      - key: orange
+        value: color6
+      - key: red
+        value: color1
   - name: INTF_UNTRUST
     description: untrust interface
     default: ethernet1/1
