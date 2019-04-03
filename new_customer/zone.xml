@@ -1,7 +1,7 @@
  <entry name="{{ customer_ID }}">
     <network>
      <layer3>
-        <member>{{ INTF_TRUST }}</member>
+        <member>{{ INTF_TRUST }}.{{ vlan_tag }}</member>
       </layer3>
       <zone-protection-profile>Recommended_Zone_Protection</zone-protection-profile>
     </network>
