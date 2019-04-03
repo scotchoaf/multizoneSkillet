@@ -75,8 +75,6 @@
       <member>web-advertisements</member>
       <member>web-based-email</member>
       <member>web-hosting</member>
-      <member>Black-List</member>
-      <member>White-List</member>
     </block>
   </credential-enforcement>
   <log-http-hdr-user-agent>yes</log-http-hdr-user-agent>
@@ -149,13 +147,11 @@
     <member>web-advertisements</member>
     <member>web-based-email</member>
     <member>web-hosting</member>
-    <member>White-List</member>
   </alert>
   <block>
     <member>command-and-control</member>
     <member>hacking</member>
     <member>malware</member>
     <member>phishing</member>
-    <member>Black-List</member>
   </block>
 </entry>
