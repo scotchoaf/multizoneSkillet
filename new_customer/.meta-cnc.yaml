@@ -110,7 +110,7 @@ snippets:
     xpath: /config/devices/entry[@name='localhost.localdomain']/network/profiles
     file: network_profiles.xml
   - name: subinterface
-    xpath: /config/devices/entry[@name='localhost.localdomain']/network/interface/ethernet/entry[@name='ethernet1/2']/layer3/units
+    xpath: /config/devices/entry[@name='localhost.localdomain']/network/interface/ethernet/entry[@name='{{ INTF_TRUST }}']/layer3/units
     file: subinterface.xml
   - name: virtual_router
     xpath: /config/devices/entry[@name='localhost.localdomain']/network/virtual-router
