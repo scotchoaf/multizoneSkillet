@@ -3,8 +3,8 @@
 # unique snippet name
 name: multizoneVLANnew
 # label used for menu selection
-label: VLAN_based multizone baseline config
-description: adds the base elements like untrust zone and logging profile
+label: Insert new multizone NGFW
+description: configure baseline elements for a new NGFW deployment
 
 # type of device configuration
 # common types are panorama, panos, and template

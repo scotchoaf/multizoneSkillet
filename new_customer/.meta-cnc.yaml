@@ -3,8 +3,8 @@
 # unique snippet name
 name: multizoneVLANbase
 # label used for menu selection
-label: VLAN_based multizone security policies for new customer
-description: Creates vlan interface along with associated zone and security policies
+label: Onboard new multizone customer
+description: Creates subinterface along with associated zone and security policies
 
 # type of device configuration
 # common types are panorama, panos, and template
